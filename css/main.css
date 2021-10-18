@@ -150,20 +150,463 @@ p.useful-habits-text {
 .useful-habits-photo {
     
 }
-.number-of-users {
-    /*
-    background-color: rgb(243, 65, 95);
-    height: 991px;
-    width: 100%; */
-}
-.eco-events {
-}
-.tips {
-}
-.subscription {
+.about-us {
+    
 }
 
-.first-view-page, .number-of-users, .eco-events, .tips, .subscription {
+.about-us-heading, .eco-events-heading, .useful-tips-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.about-us-heading {
+    margin-bottom: 58px;
+}
+
+.eco-events-heading {
+    margin-bottom: 60px;
+}
+
+.useful-tips-heading {
+    margin-bottom: 40px;
+}
+
+.about-us-general {
+}
+.eco-bag-and-plastic-bag {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 311px;
+    margin-right: 311px;
+    width: 853px;
+    height: 315px;
+}
+.eco-bag {
+}
+.plastic-bag {
+    width: 312px;
+    height: 262px;
+}
+
+.heading-with-counter {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 19px;
+
+}
+
+
+.counter {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    color: #13AA57;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.plastic-bag-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+.habbits-button {
+    margin-bottom: 31px;
+}
+.shop-location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 312px;
+    height: 40px;
+    
+}
+.location-icon {
+    width: 32px;
+    height: 40px;
+    background-image: url(/img/icons/icon_location.svg);
+    margin-right: 20px;
+    margin-left: 0;
+}
+.shop-link {
+}
+
+
+.eco-bag-link {
+    width: 244px;
+    height: 38px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #13AA57;
+}
+
+
+
+.glass-and-cup {
+    display: flex;
+    justify-content: space-between;
+    width: 922px;
+    height: 308px;
+    margin-left: 259px;
+    margin-top: 129px;
+}
+.glass {
+    padding-top: 0px;
+    width: 343px;
+    height: 261px;
+}
+.eco-cup {
+    margin-left: 229px;
+}
+
+.eco-events {
+    margin-top: 120px;
+    width: 1040px;
+    height: 601px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-event-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-event-div {
+    width: 605px;
+    height: 444px;
+    margin-right: 20px;
+    background: #FFFFFF;
+    box-shadow: -1px 13px 20px #F0F2F4;
+    border-radius: 4px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+img {
+    
+}
+
+.event-date {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2.8px;
+    color: #839C94;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#first-event {
+    margin-bottom: 10px;
+}
+
+.event-date-heading {
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#first-event-heading {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.read-more {
+    margin-left: 30px;
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #13AA57;
+}
+
+.read-more::after {
+    content: "";
+    width: 25px;
+    height: 8px;
+    position: absolute;
+    left: 118px;
+    top: 10px;
+    background-image: url("../img/icons/arrow.svg");
+    background-repeat:no-repeat;
+    background-size:initial;
+    background-position: center;
+}
+
+
+.right-event-div {
+    width: 396px;
+    height: 444px;
+    margin-right: 20px;
+    margin-bottom: 42px;
+    box-shadow: -1px 13px 20px #F0F2F4;
+    border-radius: 4px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+hr.green {
+    height: 7px;
+    width: 396px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background: #13AA57;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.top-event {
+    width: 344px;
+    height: 191px;
+    margin-bottom: 29px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.second-event-heading, .third-event-heading {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+hr.gray {
+    background-color: #968D99; /* Цвет линии */
+    color: #968D99; /* Цвет линии для IE6-7 */
+    height: 2px;
+    width: 336px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-event {
+    width: 344px;
+    height: 155px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.read-news {
+    width: 201px;
+    height: 48px;
+    filter: drop-shadow(0px 5px 20px rgba(118, 196, 125, 0.411204));
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #13AA57;
+    border-radius: 4px;
+    color: #13AA57;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-left: auto;
+}
+
+.useful-tips {
+    width: 1440px;
+    height: 526px;
+    margin-top: 0px;
+    margin-bottom: 92px;
+
+}
+
+.carousel-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 1756px;
+    height: 296px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.carousel-item {
+    width: 408px;
+    height: 296px;
+    margin-right: 40px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.carousel-item-context-container {
+    width: 328px;
+    height: 211px;
+    margin: 30px 40px 55px 40px;
+    padding: 0px;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.carousel-img {
+    width: 75px;
+    height: 56px;
+    background-image: url("../img/icons/hand.svg");
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.carousel-text {
+    width: 328px;
+    height: 135px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #324148;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 124px;
+    height: 52px;
+    margin-top: 46px;
+    margin-left: 215px;
+    margin-bottom: 28px;
+}
+.left-switch {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    background: #13AA57;
+    text-align: center;
+    box-shadow: 0px 25px 25px rgba(118, 196, 125, 0.314538);
+    border-radius: 4px;
+    
+}
+.left-switch img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.right-switch {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #13AA57;
+    box-shadow: -1px 13px 20px #F0F2F4;
+    border-radius: 4px;
+}
+
+.right-switch img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.subscription {
+    position: relative;
+    width: 1440px;
+    height: 441px;
+    background: #F4F5F7;
+    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
+}
+
+.subscription-img {
+    margin: 57px auto 57px 209px;
+
+}
+
+.subscription-heading {
+    position: absolute;
+    display: inline;
+    white-space: nowrap;
+
+    margin: 82px 233px 30px 49px;
+    font-style: normal;
+    /*font-weight: bold;*/
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: -0.2875px;
+
+    color: #2B292D;
+
+}
+
+.subscription-text {
+    position: absolute;
+    display: inline;
+    margin: 160px 335px 34px 49px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2B292D;
+}
+
+.subscription-input {
+    position: absolute;
+    margin-top: 258px;
+    margin-left: 49px;
+    width: 385px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 4px;
+}
+
+input.subscription-input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #839C94;
+}
+
+.subscription-btn {
+    position: absolute;
+    width: 201px;
+    height: 48px;
+    border: none;
+    margin-top: 258px;
+    margin-right: 274px;
+    margin-left: 464px;
+    filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+    background: #13AA57;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*img.left-switch-arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+} */
+
+.first-view-page, .about-us, .eco-events, .useful-tips, .subscription {
     border: 5px solid #000000;
 }
 
