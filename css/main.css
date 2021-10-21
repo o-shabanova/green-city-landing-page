@@ -81,17 +81,11 @@ div.top-navigation-text > div {
     grid-template-columns: 1fr;
 } 
 
-/*.main {
-    display: grid;
-} */
+
 
 .first-view-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /*background-color: pink;
-    height: 652px;
-    width: 100%; */
-
 }
 
 .useful-habits {
@@ -147,12 +141,6 @@ p.useful-habits-text {
     text-align: right;
 }
 
-.useful-habits-photo {
-    
-}
-.about-us {
-    
-}
 
 .about-us-heading, .eco-events-heading, .useful-tips-heading {
     font-style: normal;
@@ -162,7 +150,6 @@ p.useful-habits-text {
     text-align: center;
 
     color: #000000;
-
 }
 
 .about-us-heading {
@@ -202,7 +189,6 @@ p.useful-habits-text {
     color: #000000;
     margin-top: 23px;
     margin-bottom: 19px;
-
 }
 
 
@@ -245,8 +231,6 @@ p.useful-habits-text {
     margin-right: 20px;
     margin-left: 0;
 }
-.shop-link {
-}
 
 
 .eco-bag-link {
@@ -260,8 +244,6 @@ p.useful-habits-text {
     text-decoration-line: underline;
     color: #13AA57;
 }
-
-
 
 .glass-and-cup {
     display: flex;
@@ -300,11 +282,6 @@ p.useful-habits-text {
     background: #FFFFFF;
     box-shadow: -1px 13px 20px #F0F2F4;
     border-radius: 4px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
-}
-
-img {
-    
 }
 
 .event-date {
@@ -366,7 +343,6 @@ img {
     margin-bottom: 42px;
     box-shadow: -1px 13px 20px #F0F2F4;
     border-radius: 4px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 hr.green {
@@ -382,7 +358,6 @@ hr.green {
     width: 344px;
     height: 191px;
     margin-bottom: 29px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .second-event-heading, .third-event-heading {
@@ -392,7 +367,6 @@ hr.green {
 
 hr.gray {
     background-color: #968D99; /* Цвет линии */
-    color: #968D99; /* Цвет линии для IE6-7 */
     height: 2px;
     width: 336px;
     margin-top: 20px;
@@ -402,7 +376,6 @@ hr.gray {
 .bottom-event {
     width: 344px;
     height: 155px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .read-news {
@@ -438,14 +411,12 @@ hr.gray {
     justify-content: flex-start;
     width: 1756px;
     height: 296px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .carousel-item {
     width: 408px;
     height: 296px;
     margin-right: 40px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .carousel-item-context-container {
@@ -453,7 +424,6 @@ hr.gray {
     height: 211px;
     margin: 30px 40px 55px 40px;
     padding: 0px;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .carousel-img {
@@ -523,15 +493,14 @@ hr.gray {
 
 .subscription {
     position: relative;
+    margin-bottom: 80px;
     width: 1440px;
     height: 441px;
     background: #F4F5F7;
-    border: 1px solid #000000; /*временно, чтобы ориентироваться*/
 }
 
 .subscription-img {
     margin: 57px auto 57px 209px;
-
 }
 
 .subscription-heading {
@@ -541,7 +510,7 @@ hr.gray {
 
     margin: 82px 233px 30px 49px;
     font-style: normal;
-    /*font-weight: bold;*/
+    font-weight: bold;
     font-size: 46px;
     line-height: 40px;
     letter-spacing: -0.2875px;
@@ -589,6 +558,7 @@ input.subscription-input::placeholder {
     margin-top: 258px;
     margin-right: 274px;
     margin-left: 464px;
+    
     filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
     background: #13AA57;
     border-radius: 4px;
@@ -600,14 +570,57 @@ input.subscription-input::placeholder {
     text-align: center;
     color: #FFFFFF;
 }
-/*img.left-switch-arrow {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-} */
 
-.first-view-page, .about-us, .eco-events, .useful-tips, .subscription {
-    border: 5px solid #000000;
+.footer {
+    display: grid;
+    grid-template-columns: 442px 128px 97px;
+    grid-column-gap: 171px;
+
+    width: 1019px;
+    height: 257px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.logo-and-button {
+    
+}
+#habits-btn-footer {
+    margin-top: 60px;
+    margin-left: 0;
+    display: block;
+}
+
+.green-city-about-general {
+
+}
+.green-city {
+    width: 212px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+}
+.green-city-content {
+    width: 128px;
+    height: 160px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #839C94;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 97px;
+    height: 18px;
+}
+
 
 
